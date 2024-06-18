@@ -1,0 +1,19 @@
+{
+  "flex-layout.row#home__banner--three": {
+    "title": "Banner 3",
+    "children": [
+      "image#banner3__image"
+    ],
+    "props": {
+      "blockClass": "promo__banner--three"
+    }
+  },
+  "image#banner3__image": {
+    "props": {
+      "src": "assets/img/banner3__image--1.webp",
+      "link": {
+        "url": "/new-page"
+      }
+    }
+  }
+}

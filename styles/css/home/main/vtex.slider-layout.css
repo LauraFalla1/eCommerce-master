@@ -1,0 +1,52 @@
+.sliderLayoutContainer--carousel__one {
+  padding-bottom: 1rem;
+}
+
+.sliderLayoutContainer--shelf {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.sliderTrack--shelf{
+  gap: 1rem;
+}
+
+.sliderTrack--bullet-group {
+  gap: 1rem;
+}
+
+.slide--bullet-group--visible {
+  width: 5.55556%;
+  border: 1px solid #ebebeb;
+  background: white;
+  padding: 1rem;
+  border-radius: 0.2rem;
+}
+
+.bullet__item--link--bullet-group {
+  text-decoration: none;
+}
+
+.bullet__item--title--bullet-group {
+  text-align: center;
+  background: var(--white-color);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+}
+
+.bullet__item--title--bullet-group:hover {
+  background: var(--secondary-color);
+  color: var(--white-color);
+}
+
+.caretIcon--bullet-group {
+  background: #efecec;
+  padding: 0.7rem;
+  border-radius: 2rem;
+}
+
+@media (max-width: 1024) {
+
+}

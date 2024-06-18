@@ -1,0 +1,35 @@
+.container--deals {
+    color: var(--black-color) !important;
+    text-align: center;
+    justify-content: center;
+    font-weight: 400;
+  }
+
+.container--deals__title {
+  color: var(--text-secondary);
+}
+
+.container--shelfTitle {
+  color: var(--black-color) !important;
+  margin: 0 10rem;
+  justify-content: left !important;
+  text-align: left !important;
+}
+
+.headingLevel2--shelfTitle {
+  font-weight: 200;
+}
+
+
+ @media (max-width: 1024px) {
+  .container--shelfTitle {
+    margin: 0;
+  }
+
+  .heading-level-2  {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
